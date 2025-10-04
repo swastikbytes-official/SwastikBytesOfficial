@@ -303,7 +303,7 @@ const About: React.FC = () => {
               >
                 <div className="text-4xl mb-4">{cert.icon}</div>
                 <h3 className="font-poppins font-semibold text-primary-950 mb-2">{cert.title}</h3>
-                <p className="font-inter text-sm text-gray-600">{cert.year}</p>
+                {/* <p className="font-inter text-sm text-gray-600">{cert.year}</p> */}
               </div>
             ))}
           </div>
