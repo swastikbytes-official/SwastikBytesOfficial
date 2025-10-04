@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle, MessageCircle, Calendar } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -115,6 +116,15 @@ const Contact: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <Helmet>
+        <title>Contact Us - Swastikbytes</title>
+        <meta name="description" content="Contact Swastikbytes for web and CMS development services." />
+        <meta name="keywords" content="contact, Swastikbytes, IT solutions, support" />
+        <meta property="og:title" content="Contact Swastikbytes" />
+        <meta property="og:description" content="Get in touch with Swastikbytes for IT services." />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.swastikbytes.com/contact" />
+      </Helmet>
       {/* Hero Section */}
       <section className="py-20 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-accent-teal/20 to-accent-indigo/20 rounded-full blur-3xl animate-pulse-soft"></div>

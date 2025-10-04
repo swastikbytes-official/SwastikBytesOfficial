@@ -94,7 +94,7 @@ const TechStack: React.FC = () => {
         <div className="relative h-96 lg:h-[500px] overflow-hidden">
           <div
             ref={cloudRef}
-            className="absolute inset-0 flex flex-wrap items-center justify-center gap-x-8 gap-y-8 px-8 py-8"
+            className="absolute inset-0 flex flex-wrap items-center justify-center"
           >
             {technologies.map((tech, index) => (
               <div
