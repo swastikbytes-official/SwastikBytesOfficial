@@ -105,15 +105,15 @@ const Services: React.FC = () => {
       <Helmet>
         <title>Our Services - Swastikbytes</title>
         <meta name="description" content="Explore our comprehensive CMS services including Sitecore, WordPress, and Umbraco development." />
-        <meta name="keywords" content="CMS Development Services, Headless CMS, XM Cloud, Sitecore Development, WordPress Development, Umbraco Development, AI CMS Solutions"/>
+        <meta name="keywords" content="CMS Development Services, Headless CMS, XM Cloud, Sitecore Development, WordPress Development, Strapi Development, Umbraco Development, AI CMS Solutions"/>
         <meta property="og:title" content="Our Services - Swastikbytes" />
-        <meta property="og:description" content="Comprehensive CMS solutions for Sitecore, WordPress, and Umbraco." />
+        <meta property="og:description" content="Comprehensive CMS solutions for Sitecore, WordPress, Strapi and Umbraco." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.swastikbytes.com/services" />
         {/* <meta property="og:image" content="https://www.swastikbytes.com/images/services.jpg" /> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Services - Swastikbytes" />
-        <meta name="twitter:description" content="Explore our CMS services including Sitecore, WordPress, and Umbraco development." />
+        <meta name="twitter:description" content="Explore our CMS services including Sitecore, WordPress, Strapi and Umbraco development." />
         {/* <meta name="twitter:image" content="https://www.swastikbytes.com/images/services.jpg" /> */}
         <link rel="canonical" href="https://www.swastikbytes.com/services" />
       </Helmet>
