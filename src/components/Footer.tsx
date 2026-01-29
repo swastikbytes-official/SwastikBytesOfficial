@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/swastikbytes-technologies/', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Github, href: '#', label: 'GitHub' }
   ];
@@ -11,6 +11,7 @@ const Footer: React.FC = () => {
   const quickLinks = [
     { name: 'About Us', href: '/about' },
     { name: 'Services', href: '/services' },
+    { name: 'Blog', href: '/blog' },
     // { name: 'Case Studies', href: '/case-studies' },
     // { name: 'Portfolio', href: '/portfolio' },
     { name: 'Contact', href: '/contact' }
@@ -44,7 +45,7 @@ const Footer: React.FC = () => {
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
                   <a
-                    key={index}
+                    key={index} target='_blank'
                     href={social.href}
                     className="bg-white/10 p-3 rounded-2xl hover:bg-gradient-to-r hover:from-accent-teal hover:to-accent-indigo transition-all duration-300 ease-out-quart transform hover:scale-110 hover:-translate-y-1 group"
                     aria-label={social.label}
@@ -104,8 +105,8 @@ const Footer: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="h-5 w-5 text-accent-teal mt-1 flex-shrink-0" />
                   <div>
-                    <a href='tel:919104194043' className="font-inter text-gray-300">+91 9104194043</a><br />
-                    <a href='tel:919104965667' className="font-inter text-gray-300">+91 9104965667</a>
+                    <a href='tel:+919274885943' className="font-inter text-gray-300">+91 9274885943</a><br />
+                    {/* <a href='tel:919104965667' className="font-inter text-gray-300">+91 9104965667</a> */}
                   </div>
                 </div>
                 

@@ -16,6 +16,8 @@ import Contact from './pages/Contact';
 import CaseStudies from './pages/CaseStudies';
 import Portfolio from './pages/Portfolio';
 import NotFound404 from './pages/NotFound404';
+import BlogListing from './pages/BlogListing';
+import BlogDetail from './pages/BlogDetail';
 
 function App() {
   useEffect(() => {
@@ -79,6 +81,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <Route path="/contact" element={<Contact />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/blog" element={<BlogListing />} />
+            <Route path="/blog/:slug" element={<BlogDetail />} />
             <Route path="*" element={<NotFound404 />} />
           </Routes>
         </main>

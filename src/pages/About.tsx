@@ -87,7 +87,7 @@ const About: React.FC = () => {
   ];
 
   return (
-    <div className="pt-20">
+    <div>
       <Helmet>
         <title>About Us - Swastikbytes</title>
         <meta name="description" content="Learn more about Swastikbytes and our mission to deliver quality IT solutions." />
@@ -99,41 +99,48 @@ const About: React.FC = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="py-20 lg:py-32 bg-gradient-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-teal-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-accent-teal/10 to-accent-indigo/10"></div>
+        
+        {/* Animated Background Elements */}
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-accent-teal/20 to-accent-indigo/20 rounded-full blur-3xl animate-pulse-soft"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-accent-indigo/20 to-accent-teal/20 rounded-full blur-3xl animate-pulse-soft" style={{animationDelay: '1.5s'}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-poppins font-bold text-4xl lg:text-6xl text-primary-950 mb-6">
-            About Swastikbytes
-          </h1>
-          <p className="font-inter text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">
-            Professional CMS development team with over a decade of experience delivering enterprise-grade solutions 
-            with boutique-level care and attention to detail.
-          </p>
-          
-          {/* Quick Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {[
-              { label: 'Years Average Experience', suffix: '+' },
-              // { label: 'Successful Projects', suffix: '+' },
-              { label: 'Certified Developers', suffix: '+' },
-              { label: 'Client Satisfaction', suffix: '%' }
-            ].map((stat, index) => (
-              <div key={index} className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-200 shadow-sm">
-                <div className="font-poppins font-bold text-3xl lg:text-4xl text-primary-950 mb-2">
-                  <span
-                    ref={(el) => counterRefs.current[index] = el}
-                    data-index={index}
-                  >
-                    0
-                  </span>
+          <div className="animate-fade-up">
+            <h1 className="font-poppins font-bold text-4xl lg:text-5xl xl:text-6xl text-primary-950 mb-6">
+              About Swastikbytes
+            </h1>
+            <p className="font-inter text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">
+              Professional CMS development team with over a decade of experience delivering enterprise-grade solutions 
+              with boutique-level care and attention to detail.
+            </p>
+            
+            {/* Quick Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              {[
+                { label: 'Years Average Experience', suffix: '+' },
+                // { label: 'Successful Projects', suffix: '+' },
+                { label: 'Certified Developers', suffix: '+' },
+                { label: 'Client Satisfaction', suffix: '%' }
+              ].map((stat, index) => (
+                <div key={index} className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-gray-200 shadow-sm">
+                  <div className="font-poppins font-bold text-3xl lg:text-4xl text-primary-950 mb-2">
+                    <span
+                      ref={(el) => counterRefs.current[index] = el}
+                      data-index={index}
+                    >
+                      0
+                    </span>
+                  </div>
+                  <div className="font-inter text-gray-600 text-sm">
+                    {stat.label}
+                  </div>
                 </div>
-                <div className="font-inter text-gray-600 text-sm">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
