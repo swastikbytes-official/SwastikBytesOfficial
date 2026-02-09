@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
                   <div>
                     <p className="font-inter text-gray-300">
                       09, Alka shopping Center<br />
-                      Near mangal park BRTS stop, Kankaria, Ahmedabad 380022<br />
+                      Near mangal park BRTS stop, Ahmedabad 380022<br />
                       India
                     </p>
                   </div>

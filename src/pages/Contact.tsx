@@ -87,13 +87,13 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+91 9104194043', '+91 9104965667'],
+      details: ['+91 9274885943'],
       description: 'Speak directly with our CMS specialists'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: ['09, Alka shopping Center', 'Near mangal park BRTS stop, Kankaria, Ahmedabad ', 'India'],
+      details: ['09, Alka shopping Center', 'Near mangal park BRTS stop, Ahmedabad ', 'India'],
       description: 'Our headquarters in the Ahmedabad'
     },
     {
