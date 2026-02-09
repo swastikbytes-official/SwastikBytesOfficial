@@ -15,7 +15,7 @@ const blogPostsData = [
     readTime: 8,
     image: `
      <img
-          src="/img/blogs/wordpressinstall/howtoinstallwordpress.jpg"
+          src="/images/wordpressinstall/howtoinstallwordpress.jpg"
           alt="howtoinstallwordpress"
           className="w-full h-96 object-cover rounded-2xl"
         ></img>`
@@ -41,7 +41,7 @@ const blogPostsData = [
           <p>Open your browser and search for <strong class="text-primary-900 font-semibold">Local WP</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\1.jpeg" 
+            src="\\images\\wordpressinstall\\1.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -53,7 +53,7 @@ const blogPostsData = [
           <p>Click the official website and press <strong class="text-primary-900 font-semibold">Download</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\2.jpeg" 
+            src="\\images\\wordpressinstall\\2.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -65,7 +65,7 @@ const blogPostsData = [
           <p>Select your platform (Windows/Mac/Linux).</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\4.jpeg" 
+            src="\\images\\wordpressinstall\\4.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -77,7 +77,7 @@ const blogPostsData = [
           <p>Enter your first & last name.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\5.jpeg" 
+            src="\\images\\wordpressinstall\\5.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -89,7 +89,7 @@ const blogPostsData = [
           <p>Choose your organization type.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\6.jpeg" 
+            src="\\images\\wordpressinstall\\6.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -101,7 +101,7 @@ const blogPostsData = [
           <p>Enter your email and click <strong class="text-primary-900 font-semibold">Get It Now</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\7.jpeg" 
+            src="\\images\\wordpressinstall\\7.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -141,7 +141,7 @@ const blogPostsData = [
           <p>Open the Local app.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\8.jpeg" 
+            src="\\images\\wordpressinstall\\8.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -153,7 +153,7 @@ const blogPostsData = [
           <p>Click the <strong class="text-primary-900 font-semibold">+ icon</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\9.jpeg" 
+            src="\\images\\wordpressinstall\\9.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -165,7 +165,7 @@ const blogPostsData = [
           <p>Select <strong class="text-primary-900 font-semibold">Create a New Site</strong> → Continue.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\10.jpeg" 
+            src="\\images\\wordpressinstall\\10.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -177,7 +177,7 @@ const blogPostsData = [
           <p>Enter your site name.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\11.jpeg" 
+            src="\\images\\wordpressinstall\\11.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -189,7 +189,7 @@ const blogPostsData = [
           <p>Select <strong class="text-primary-900 font-semibold">Preferred Environment</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\12.jpeg" 
+            src="\\images\\wordpressinstall\\12.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -211,7 +211,7 @@ const blogPostsData = [
           <p>Enter your Gmail ID.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\13.jpeg" 
+            src="\\images\\wordpressinstall\\13.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -223,7 +223,7 @@ const blogPostsData = [
           <p>Click <strong class="text-primary-900 font-semibold">Add Site</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\14.jpeg" 
+            src="\\images\\wordpressinstall\\14.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -245,7 +245,7 @@ const blogPostsData = [
           <p>Click <strong class="text-primary-900 font-semibold">WP Admin</strong>.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\14.jpeg" 
+            src="\\images\\wordpressinstall\\14.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -257,7 +257,7 @@ const blogPostsData = [
           <p>Enter the Username & password you have set in it & click on Log In Button.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\15.jpeg" 
+            src="\\images\\wordpressinstall\\15.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -269,7 +269,7 @@ const blogPostsData = [
           <p>You will now see the WordPress dashboard.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\16.jpeg" 
+            src="\\images\\wordpressinstall\\16.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -281,7 +281,7 @@ const blogPostsData = [
           <p>Click <strong class="text-primary-900 font-semibold">Hello World → Visit Site</strong> to preview your website.</p>
           <br>
           <img 
-            src="\\img\\blogs\\wordpressinstall\\17.jpeg" 
+            src="\\images\\wordpressinstall\\17.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
@@ -293,7 +293,7 @@ const blogPostsData = [
   <div class="bg-gradient-to-r from-teal-50 to-blue-50 border-l-4 border-accent-teal rounded-lg p-8 font-poppins">
     <h2 class="text-2xl font-bold text-primary-900 mb-6">✅ Final Result</h2>
     <img 
-      src="\\img\\blogs\\wordpressinstall\\18.jpeg" 
+      src="\\images\\wordpressinstall\\18.jpeg" 
       alt="Search Local WP in browser" 
       class="w-full rounded-lg shadow-md border border-gray-200"
     >
@@ -312,7 +312,7 @@ const blogPostsData = [
     category: 'Umbraco',
     readTime: 10,
     image: `<img 
-            src="\\img\\umbracoblogs\\image.png" 
+            src="\\images\\umbracoblogs\\image.jpeg" 
             alt="Search Local WP in browser" 
            className="w-full rounded-lg shadow-md border border-gray-200"
           ></img>`
@@ -484,19 +484,19 @@ const blogPostsData = [
             <li>Open Command Prompt</li>
             <li>Navigate to your desired folder
             <img 
-            src="\\img\\umbracoblogs\\2.jpeg" 
+            src="\\images\\umbracoblogs\\2.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
             <li>Run the Umbraco installation command
             <img 
-            src="\\img\\umbracoblogs\\3.jpeg" 
+            src="\\images\\umbracoblogs\\3.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
           <li>Create a new Project of Umbraco
           <img 
-            src="\\img\\umbracoblogs\\4.jpeg" 
+            src="\\images\\umbracoblogs\\4.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
@@ -512,24 +512,24 @@ const blogPostsData = [
         <ul>
             <li>Go to the project folder
             <img 
-            src="\\img\\umbracoblogs\\5.jpeg" 
+            src="\\images\\umbracoblogs\\5.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
             <li>Run the project using dotnet run
             <img 
-            src="\\img\\umbracoblogs\\6.jpeg" 
+            src="\\images\\umbracoblogs\\6.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           >
             <img 
-            src="\\img\\umbracoblogs\\7.jpeg" 
+            src="\\images\\umbracoblogs\\7.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
             <li>Then "ctrl+click"on These two URLs
             <img 
-            src="\\img\\umbracoblogs\\8.jpeg" 
+            src="\\images\\umbracoblogs\\8.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
@@ -546,33 +546,33 @@ const blogPostsData = [
     <ul>
         <li>Then a page will open in your browser where you need to enter your name, email, and password.
         <img 
-            src="\\img\\umbracoblogs\\9.jpeg" 
+            src="\\images\\umbracoblogs\\9.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
         <li>Click the checkbox and then click the Next button.<img 
-            src="\\img\\umbracoblogs\\10.jpeg" 
+            src="\\images\\umbracoblogs\\10.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
         <li>Click Next again.<img 
-            src="\\img\\umbracoblogs\\11.jpeg" 
+            src="\\images\\umbracoblogs\\11.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
         <li>Select the database and click the Install button.<img 
-            src="\\img\\umbracoblogs\\12.jpeg" 
+            src="\\images\\umbracoblogs\\12.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
         <li>After the installation is complete, enter the email ID and password you saved earlier and click the Login button.<img 
-            src="\\img\\umbracoblogs\\13.jpeg" 
+            src="\\images\\umbracoblogs\\13.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
         <li>The page that opens next is the first dashboard view of Umbraco CMS.
         <img 
-            src="\\img\\umbracoblogs\\14.jpeg" 
+            src="\\images\\umbracoblogs\\14.jpeg" 
             alt="Search Local WP in browser" 
             class="w-full rounded-lg shadow-md border border-gray-200"
           ></li>
@@ -596,7 +596,7 @@ const blogPostsData = [
     category: 'WordPress',
     readTime: 6,
     image: `<img 
-            src="\\img\\umbracoblogs\\theme.jpeg" 
+            src="\\images\\wordpressinstall\\theme.jpeg" 
             alt="Search Local WP in browser" 
            className="w-full rounded-lg shadow-md border border-gray-200"
           ></img>`,
@@ -728,51 +728,50 @@ article img{
   Start by opening the Local WP software on your computer. From the dashboard,
   select the website project you want to edit.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\20.jpeg" alt="Search Local WP">
+<img src="\\images\\wordpressinstall\\20.jpeg" alt="Search Local WP">
 
 <h2>Step 2: Access the WordPress Dashboard</h2>
 <div class="step">
   Click the <strong>WP Admin</strong> button. This will redirect you to your
   WordPress login page.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\21.jpeg" alt="WP Admin">
+<img src="\\images\\wordpressinstall\\21.jpeg" alt="WP Admin">
 
 <h2>Step 3: Log in to Your Site</h2>
 <div class="step">
   Enter your admin username and password to open the WordPress dashboard where
   all settings and tools are available.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\22.jpeg" alt="WordPress Login">
+<img src="\\images\\wordpressinstall\\22.jpeg" alt="WordPress Login">
 
 <h2>Step 4: Navigate to Themes</h2>
 <div class="step">
   From the left menu, go to <strong>Appearance → Themes</strong>.
   Here you can manage, add, or change your website’s design.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\24.jpeg" alt="Themes">
+<img src="\\images\\wordpressinstall\\24.jpeg" alt="Themes">
 
 <h2>Step 5: Add a New Theme</h2>
 <div class="step">
   Click <strong>Add New</strong>, browse the available themes, and choose the one
   that fits your style or project requirements.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\25.jpeg" alt="Add Theme">
+<img src="\\images\\wordpressinstall\\25.jpeg" alt="Add Theme">
 
 <h2>Step 6: Install and Activate</h2>
 <div class="step">
   Press the <strong>Install</strong> button and once completed,
   click <strong>Activate</strong> to apply the theme to your website.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\27.jpeg" alt="Install Theme">
-<img src="\\img\\blogs\\wordpressinstall\\28.jpeg" alt="Activate Theme">
-
+<img src="\\images\\wordpressinstall\\27.jpeg" alt="Install Theme">
+<img src="\\images\\wordpressinstall\\28.jpeg" alt="Activate Theme">
 <h2>Step 7: Customize Your Design</h2>
 <div class="step">
   Open the site preview and use <strong>Edit Site</strong> or <strong>Customize</strong>
   to change layouts, colors, fonts, and sections according to your needs.
 </div>
-<img src="\\img\\blogs\\wordpressinstall\\30.jpeg" alt="Customize">
-<img src="\\img\\blogs\\wordpressinstall\\31.jpeg" alt="Edit Site">
+<img src="\\images\\wordpressinstall\\30.jpeg" alt="Customize">
+<img src="\\images\\wordpressinstall\\31.jpeg" alt="Edit Site">
 
 </article>
 

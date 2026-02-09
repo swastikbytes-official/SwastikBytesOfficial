@@ -13,7 +13,7 @@ const blogPosts = [
     author: 'Ved Hingu',
     category: 'WordPress',
     readTime: 8,
-    image: '/img/blogs/wordpressinstall/howtoinstallwordpress.jpg',
+    image: '/images/wordpressinstall/howtoinstallwordpress.jpg',
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const blogPosts = [
     author: 'Ved Hingu',
     category: 'Umbraco',
     readTime: 10,
-    image: '/img/umbracoblogs/image.png',
+    image: '/images/umbracoblogs/image.jpeg',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const blogPosts = [
     author: 'Ved Hingu',
     category: 'WordPress',
     readTime: 6,
-    image: '/img/umbracoblogs/theme.jpeg',
+    image: '/images/wordpressinstall/theme.jpeg',
   },
 ];
 
